@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "LGR/Uffxr/I0Ve0GOdYFZ9j3agTI7B94gG8sYmhVnsbv85mHcLD+Rke/ERO9sw3qngZP2DnKAvJDcM6kEhA8kQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\cloud_observer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seldi\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.4\\microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+    "C:\\Users\\seldi\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\8.0.4\\microsoft.netcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\seldi\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.4\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\seldi\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.4\\microsoft.aspnetcore.app.runtime.win-x64.8.0.4.nupkg.sha512",
+    "C:\\Users\\seldi\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\8.0.4\\microsoft.netcore.app.crossgen2.win-x64.8.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

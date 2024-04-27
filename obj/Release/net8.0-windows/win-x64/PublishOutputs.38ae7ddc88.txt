@@ -1,0 +1,2 @@
+C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\bin\Release\net8.0-windows\publish\win-x64\cloud_observer.pdb
+C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\bin\Release\net8.0-windows\publish\win-x64\cloud_observer.exe
