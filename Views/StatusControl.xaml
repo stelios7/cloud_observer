@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="cloud_observer.UserControls.StatusControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:cloud_observer.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" 
+			 Background="Transparent"
+			 >
+	<Grid >
+		<Border Margin="5" Background="#3a3a3a" Width="250" BorderBrush="Ivory" BorderThickness="1.5" CornerRadius="10" Height="40">
+			<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+				<Label Foreground="Ivory" Width="80" x:Name="labelName" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+				<Label Foreground="Ivory" Width="70" x:Name="labelSoftware" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" />
+				<Label Foreground="Ivory" Width="50" x:Name="labelInfo" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+				<Ellipse  x:Name="elStatus" HorizontalAlignment="Left"  Stroke="Black" VerticalAlignment="Center" Width="25" Height="25" />				
+			</StackPanel>
+		</Border>
+	</Grid>
+</UserControl>

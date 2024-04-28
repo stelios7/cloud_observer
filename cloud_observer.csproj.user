@@ -9,7 +9,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="UserControls\StatusControl.xaml.cs">
+    <Compile Update="Views\StatusControl.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -17,7 +17,7 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="UserControls\StatusControl.xaml">
+    <Page Update="Views\StatusControl.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

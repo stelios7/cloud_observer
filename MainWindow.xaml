@@ -4,19 +4,40 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cloud_observer"
+		xmlns:main="clr-namespace:cloud_observer.ViewModel"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
-		WindowStyle="SingleBorderWindow"
+		WindowStartupLocation="CenterScreen"
+		WindowStyle="None"
+		AllowsTransparency="True"
+		Background="Transparent"
 		ResizeMode="NoResize">
 	<Grid>
-		<Grid.RowDefinitions>
+		<Grid.DataContext>
+			<main:MainWindowViewModel />
+		</Grid.DataContext>
+			<Grid.RowDefinitions>
 			<RowDefinition Height="*" />
 			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions >
-		<WrapPanel Grid.Row="0" Orientation="Vertical" x:Name="MainStackPanel" />
+		
+		<!--Background-->
+		<Border x:Name="Board" 
+				Background="#2a2b2c"
+				CornerRadius="15"
+				Grid.RowSpan="2"
+				/>
+		
+		<ItemsControl Grid.Row="0" ItemsSource="{Binding StatusControls}" Height="500">
+			<ItemsControl.ItemsPanel>
+				<ItemsPanelTemplate>
+					<WrapPanel IsItemsHost="True" Orientation="Vertical"/>
+				</ItemsPanelTemplate>
+			</ItemsControl.ItemsPanel>
+		</ItemsControl>
+
 		<Grid Grid.Row="1" Background="LightGreen" VerticalAlignment="Bottom">
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-				<Button Content="Clear" Click="ClearWrapPanel_Click" />
 				<Label Content="Last update: " />
 				<Label x:Name="LastUpdateTimeLabel" Width="100"/>
 			</StackPanel>

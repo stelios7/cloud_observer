@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\
+C:\Users\paokf\Documents\Code\C#\cloud_observer\obj\Debug\net8.0-windows\
 cloud_observer
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\App.xaml
-2297273366
+C:\Users\paokf\Documents\Code\C#\cloud_observer\App.xaml
+2-2020904075
 
-8-1640706526
-198155382431
-MainWindow.xaml;UserControls\StatusControl.xaml;
+112073466740
+198915248976
+MainWindow.xaml;Views\StatusControl.xaml;
 
-True
+False
 

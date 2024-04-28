@@ -8,23 +8,23 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\seldi\\.nuget\\packages\\": {},
+    "C:\\Users\\paokf\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\cloud_observer.csproj",
+      "projectUniqueName": "C:\\Users\\paokf\\Documents\\Code\\C#\\cloud_observer\\cloud_observer.csproj",
       "projectName": "cloud_observer",
-      "projectPath": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\cloud_observer.csproj",
-      "packagesPath": "C:\\Users\\seldi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\obj\\",
+      "projectPath": "C:\\Users\\paokf\\Documents\\Code\\C#\\cloud_observer\\cloud_observer.csproj",
+      "packagesPath": "C:\\Users\\paokf\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\paokf\\Documents\\Code\\C#\\cloud_observer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\seldi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\paokf\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -33,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -74,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
