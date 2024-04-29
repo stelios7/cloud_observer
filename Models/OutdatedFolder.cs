@@ -46,7 +46,7 @@ namespace RecentFileFinder
 
 		public bool IsOutdated
 		{
-			get { return daysElapsed < 1; }
+			get { return daysElapsed < 2; }
 		}
 
 		private string software;
@@ -69,10 +69,15 @@ namespace RecentFileFinder
 		#region FUNCTIONS
 		static DateTime GetLastWriteTime(DirectoryInfo di)
 		{
-			return Directory.GetFiles(di.FullName)
-				.Select(file => new FileInfo(file))
-				.OrderByDescending(fileInfo => fileInfo.CreationTime)
-				.FirstOrDefault().CreationTime;
+			var files = Directory.GetFiles(di.FullName);
+			
+			if (files.Length == 0) return DateTime.Now;
+
+			var mrf = Directory.GetFiles(di.FullName)
+				.Select(f => new FileInfo(f))
+				.OrderBy(f => f.CreationTime)
+				.First();
+			return mrf.CreationTime;
 		}
 
 		static int DaysFromLastUpload(DateTime dt) => (int)(DateTime.Now - dt).TotalDays;

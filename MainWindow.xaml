@@ -36,10 +36,11 @@
 			</ItemsControl.ItemsPanel>
 		</ItemsControl>
 
+		<!--FOOTER BAR-->
 		<Grid Grid.Row="1" Background="LightGreen" VerticalAlignment="Bottom">
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
 				<Label Content="Last update: " />
-				<Label x:Name="LastUpdateTimeLabel" Width="100"/>
+				<Label x:Name="LastUpdateTimeLabel" Content="{Binding FooterInfoContent}" Width="150"/>
 			</StackPanel>
 		</Grid>
 	</Grid>

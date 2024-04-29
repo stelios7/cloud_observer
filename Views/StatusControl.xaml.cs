@@ -26,14 +26,14 @@ namespace cloud_observer.UserControls
 		public StatusControl(OutdatedFolder odf)
 		{
 			InitializeComponent();
-			SetName(odf.Name);
-			SetInfo(odf.DaysElapsed.ToString());
-			SetSoftware(odf.Software);
-			SetStatus(odf.IsOutdated);
+			//SetName(odf.Name);
+			//SetInfo(odf.DaysElapsed.ToString());
+			//SetSoftware(odf.Software);
+			//SetStatus(odf.IsOutdated);
 		}
-		public void SetName(string name) => labelName.Content = name;
-		public void SetInfo(string info) => labelInfo.Content = info;
-		public void SetSoftware(string soft) => labelSoftware.Content = soft;
-		public void SetStatus(bool isCriteriaMet) => elStatus.Fill = isCriteriaMet ? Brushes.Green : Brushes.Red;
+		//public void SetName(string name) => labelName.Content = name;
+		//public void SetInfo(string info) => labelInfo.Content = info;
+		//public void SetSoftware(string soft) => labelSoftware.Content = soft;
+		//public void SetStatus(bool isCriteriaMet) => elStatus.Fill = isCriteriaMet ? Brushes.Green : Brushes.Red;
 	}
 }
