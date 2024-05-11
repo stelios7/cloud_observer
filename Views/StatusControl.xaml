@@ -8,13 +8,26 @@
              d:DesignHeight="50" 
 			 Background="Transparent"
 			 >
+	<UserControl.Resources>
+		<!--Default textbox style-->
+		<Style TargetType="TextBox" >
+			<Setter Property="Background" Value="Transparent"/>
+			<Setter Property="Foreground" Value="Ivory"/>
+			<Setter Property="FontSize" Value="13"/>
+			<Setter Property="Width" Value="90" />
+			<Setter Property="HorizontalContentAlignment" Value="Center" />
+			<Setter Property="VerticalContentAlignment" Value="Center" />
+			<Setter Property="BorderThickness" Value="0" />
+			<Setter Property="IsReadOnly" Value="True" />
+		</Style>
+	</UserControl.Resources>
 	<Grid >
 		<Border Margin="5" Background="#3a3a3a" Width="250" BorderBrush="Ivory" BorderThickness="1.5" CornerRadius="10" Height="40">
 			<StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-				<Label Foreground="Ivory" Width="80" x:Name="labelName" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
-				<Label Foreground="Ivory" Width="70" x:Name="labelSoftware" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" />
-				<Label Foreground="Ivory" Width="50" x:Name="labelInfo" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
-				<Ellipse  x:Name="elStatus" HorizontalAlignment="Left"  Stroke="Black" VerticalAlignment="Center" Width="25" Height="25" />				
+				<TextBox Text="{Binding AFM, Mode=OneWay}"  />
+				<Label Foreground="Ivory" Width="70" Content="{Binding Software}" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" />
+				<Label Foreground="Ivory" Width="50" Content="{Binding DaysElapsed}" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" />
+				<Ellipse  x:Name="elStatus" Fill="{Binding EllipseBackgroundColor}" HorizontalAlignment="Left"  Stroke="Black" VerticalAlignment="Center" Width="25" Height="25" />				
 			</StackPanel>
 		</Border>
 	</Grid>

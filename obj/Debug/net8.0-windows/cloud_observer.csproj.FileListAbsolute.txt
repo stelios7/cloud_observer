@@ -4,12 +4,10 @@ C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\bin\Debug\net8.0
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\bin\Debug\net8.0-windows\cloud_observer.dll
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\bin\Debug\net8.0-windows\cloud_observer.pdb
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\MainWindow.g.cs
-C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\UserControls\StatusControl.g.cs
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\cloud_observer_MarkupCompile.cache
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\cloud_observer_MarkupCompile.lref
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\MainWindow.baml
-C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\UserControls\StatusControl.baml
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\cloud_observer.g.resources
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\cloud_observer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\cloud_observer.AssemblyInfoInputs.cache
@@ -44,3 +42,6 @@ C:\Users\paokf\Documents\Code\C#\cloud_observer\obj\Debug\net8.0-windows\ref\clo
 C:\Users\paokf\Documents\Code\C#\cloud_observer\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\Users\paokf\Documents\Code\C#\cloud_observer\obj\Debug\net8.0-windows\Views\StatusControl.g.cs
 C:\Users\paokf\Documents\Code\C#\cloud_observer\obj\Debug\net8.0-windows\Views\StatusControl.baml
+C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\Views\StatusControl.g.cs
+C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\Views\StatusControl.baml
+C:\Users\seldi\Documents\2.Stelios\dotnet\Studio\cloud_observer\obj\Debug\net8.0-windows\cloud_observer.sourcelink.json

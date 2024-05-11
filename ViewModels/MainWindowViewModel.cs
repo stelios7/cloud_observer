@@ -1,14 +1,19 @@
-﻿using cloud_observer.MVVM;
+﻿using cloud_observer.Models;
+using cloud_observer.MVVM;
 using cloud_observer.UserControls;
+using cloud_observer.ViewModels;
 using RecentFileFinder;
 using System.Collections.ObjectModel;
+using System.Diagnostics;
 using System.IO;
+using System.Windows.Media;
 
 namespace cloud_observer.ViewModel
 {
 	class MainWindowViewModel : ViewModelBase
 	{
 		public ObservableCollection<StatusControl> StatusControls { get; set; }
+		static string GetFolderPath() => MainWindow.ROOT_PATH;
 
 		public MainWindowViewModel()
 		{
@@ -19,7 +24,7 @@ namespace cloud_observer.ViewModel
 
 			if (!Directory.Exists(folderPath))
 			{
-				Console.WriteLine($"The folder '{folderPath}' does not exist.");
+				Debug.Print($"The folder '{folderPath}' does not exist.");
 				return;
 			}
 
@@ -31,7 +36,6 @@ namespace cloud_observer.ViewModel
 			}
 		}
 
-		static string GetFolderPath() => MainWindow.ROOT_PATH;
 
 		private void SearchFolder(string folderPath)
 		{
@@ -40,9 +44,11 @@ namespace cloud_observer.ViewModel
 
 			foreach (var subfolder in subfolders)
 			{
-				var di = new DirectoryInfo(subfolder);
-				var sc = new StatusControl(new OutdatedFolder(di));
+				var scvm = new StatusControlViewModel(new DirectoryInfo(subfolder));
+				var sc = new StatusControl();
+				sc.DataContext = scvm;
 				StatusControls.Add(sc);
+
 				SearchFolder(subfolder);
 			}
 

@@ -1,10 +1,11 @@
-﻿using System.IO;
+﻿using System.ComponentModel;
+using System.IO;
 using System.Linq;
 using System.Security.Permissions;
 
 namespace RecentFileFinder
 {
-	public class OutdatedFolder
+	public class OutdatedFolder : INotifyPropertyChanged
 	{
 		public OutdatedFolder(DirectoryInfo di)
 		{
@@ -57,6 +58,8 @@ namespace RecentFileFinder
 			set { software = value; }
 		}
 		private string parent;
+
+		public event PropertyChangedEventHandler? PropertyChanged;
 
 		public string Parent
 		{

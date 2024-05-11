@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\paokf\\Documents\\Code\\C#\\cloud_observer\\",
+  "WorkspaceRootPath": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\paokf\\documents\\code\\c#\\cloud_observer\\views\\statuscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\seldi\\documents\\2.stelios\\dotnet\\studio\\cloud_observer\\views\\statuscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|solutionrelative:views\\statuscontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\seldi\\documents\\2.stelios\\dotnet\\studio\\cloud_observer\\viewmodels\\statuscontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|solutionrelative:viewmodels\\statuscontrolviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\seldi\\documents\\2.stelios\\dotnet\\studio\\cloud_observer\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|solutionrelative:viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\seldi\\documents\\2.stelios\\dotnet\\studio\\cloud_observer\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\seldi\\documents\\2.stelios\\dotnet\\studio\\cloud_observer\\models\\outdatedfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|solutionrelative:models\\outdatedfolder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|c:\\users\\seldi\\documents\\2.stelios\\dotnet\\studio\\cloud_observer\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{367B2C9F-F95C-4595-8EF1-CE7F3B90C319}|cloud_observer.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,22 +34,103 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:54:02.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OutdatedFolder.cs",
+              "DocumentMoniker": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\Models\\OutdatedFolder.cs",
+              "RelativeDocumentMoniker": "Models\\OutdatedFolder.cs",
+              "ToolTip": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\Models\\OutdatedFolder.cs",
+              "RelativeToolTip": "Models\\OutdatedFolder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T11:53:45.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StatusControlViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\ViewModels\\StatusControlViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\StatusControlViewModel.cs",
+              "ToolTip": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\ViewModels\\StatusControlViewModel.cs",
+              "RelativeToolTip": "ViewModels\\StatusControlViewModel.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAFUAAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:34:34.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T10:13:55.78Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "d0d0bc91-6703-44ac-bb73-8c45ac885a07",
+        "Display": 0,
+        "X": 560,
+        "Y": 143,
+        "Width": 1050,
+        "Height": 760,
+        "WindowState": 2
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-11T10:25:17.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "StatusControl.xaml",
-              "DocumentMoniker": "C:\\Users\\paokf\\Documents\\Code\\C#\\cloud_observer\\Views\\StatusControl.xaml",
+              "DocumentMoniker": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\Views\\StatusControl.xaml",
               "RelativeDocumentMoniker": "Views\\StatusControl.xaml",
-              "ToolTip": "C:\\Users\\paokf\\Documents\\Code\\C#\\cloud_observer\\Views\\StatusControl.xaml",
+              "ToolTip": "C:\\Users\\seldi\\Documents\\2.Stelios\\dotnet\\Studio\\cloud_observer\\Views\\StatusControl.xaml",
               "RelativeToolTip": "Views\\StatusControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-28T16:55:26.481Z",
+              "WhenOpened": "2024-05-11T10:13:43.259Z",
               "EditorCaption": ""
             }
           ]

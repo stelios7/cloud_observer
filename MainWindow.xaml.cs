@@ -21,7 +21,8 @@ namespace cloud_observer
 	/// </summary>
 	public partial class MainWindow : Window
 	{
-		public static readonly string ROOT_PATH = @"C:\Users\paokf\Documents\cloudbackup";
+		//public static readonly string ROOT_PATH = @"C:\Users\paokf\Documents\cloudbackup";
+		public static readonly string ROOT_PATH = @"\\Seldi_nas\cloudbackup";
 
 		public MainWindow()
 		{

@@ -13,22 +13,19 @@
 		Background="Transparent"
 		ResizeMode="NoResize">
 	<Grid>
-		<Grid.DataContext>
-			<main:MainWindowViewModel />
-		</Grid.DataContext>
-			<Grid.RowDefinitions>
+		<Grid.RowDefinitions>
 			<RowDefinition Height="*" />
 			<RowDefinition Height="Auto" />
 		</Grid.RowDefinitions >
-		
+
 		<!--Background-->
 		<Border x:Name="Board" 
 				Background="#2a2b2c"
 				CornerRadius="15"
 				Grid.RowSpan="2"
 				/>
-		
-		<ItemsControl Grid.Row="0" ItemsSource="{Binding StatusControls}" Height="500">
+
+		<ItemsControl Grid.Row="0" ItemsSource="{Binding StatusControls}" >
 			<ItemsControl.ItemsPanel>
 				<ItemsPanelTemplate>
 					<WrapPanel IsItemsHost="True" Orientation="Vertical"/>

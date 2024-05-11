@@ -23,17 +23,32 @@ namespace cloud_observer.UserControls
 	/// </summary>
 	public partial class StatusControl : UserControl
 	{
-		public StatusControl(OutdatedFolder odf)
+		//public static readonly DependencyProperty FolderNameProperty = DependencyProperty.Register("FolderName", typeof(string), typeof(StatusControl));
+		//public static readonly DependencyProperty LastBackupDateProperty = DependencyProperty.Register("LastBackupDate", typeof(DateTime), typeof(StatusControl));
+		//public static readonly DependencyProperty BackgroundColorProperty = DependencyProperty.Register("BackgroundColor", typeof(Brush), typeof(StatusControl));
+
+		public StatusControl()
 		{
 			InitializeComponent();
-			SetName(odf.Name);
-			SetInfo(odf.DaysElapsed.ToString());
-			SetSoftware(odf.Software);
-			SetStatus(odf.IsOutdated);
 		}
-		public void SetName(string name) => labelName.Content = name;
-		public void SetInfo(string info) => labelInfo.Content = info;
-		public void SetSoftware(string soft) => labelSoftware.Content = soft;
-		public void SetStatus(bool isCriteriaMet) => elStatus.Fill = isCriteriaMet ? Brushes.Green : Brushes.Red;
+
+		//public string FolderName
+		//{
+		//	get { return (string)GetValue(FolderNameProperty); }
+		//	set { SetValue(FolderNameProperty, value); }
+		//}
+
+		//public DateTime LastBackupDate
+		//{
+		//	get { return (DateTime)GetValue(LastBackupDateProperty); }
+		//	set { SetValue(LastBackupDateProperty, value); }
+		//}
+
+		//public Brush BackgroundColor
+		//{
+		//	get { return (Brush)GetValue(BackgroundColorProperty); }
+		//	set { SetValue(BackgroundColorProperty, value); }
+		//}
+
 	}
 }
